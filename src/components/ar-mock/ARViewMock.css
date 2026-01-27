@@ -1,0 +1,109 @@
+.ar-mock-wrapper {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  background: #eef5fb;
+  border-radius: 20px;
+}
+
+/* LEFT */
+.ar-mock-left {
+  width: 300px;
+  background: #f6f9fd;
+  border-radius: 18px;
+  padding: 18px;
+}
+
+.ar-mock-select {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background: #fff;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.ar-mock-card {
+  background: #eaf1fb;
+  border-radius: 14px;
+  padding: 14px;
+  margin-bottom: 16px;
+}
+
+.ar-mock-card input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.primary-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #ff7a2f;
+  color: white;
+  font-weight: 600;
+}
+
+.result {
+  margin-top: 8px;
+  color: #1e9c5b;
+}
+
+/* RIGHT */
+.ar-mock-right {
+  flex: 1;
+  background: white;
+  border-radius: 22px;
+  padding: 20px;
+  position: relative;
+}
+
+.camera-status {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #1f2f4f;
+  color: #7dff9f;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.ar-visual {
+  width: 300px;
+  height: 300px;
+  margin: 50px auto 20px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #0b1c35, #020c1b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cube {
+  width: 110px;
+  height: 110px;
+  border: 2px dashed #9fe8ff;
+  transform: rotateX(25deg) rotateY(30deg);
+}
+
+.hint {
+  text-align: center;
+  color: #555;
+}
+
+.secondary-btn {
+  display: block;
+  margin: 16px auto 0;
+  padding: 12px 18px;
+  border-radius: 12px;
+  border: none;
+  background: #1f2f4f;
+  color: white;
+  font-weight: 500;
+}
