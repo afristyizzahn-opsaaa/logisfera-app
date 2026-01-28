@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function LearningPath() {
   const modules = [
-    { id: 1, title: "Pythagoras & Basics", desc: "Theory + example" },
+    { id: 1, title: "Basics", desc: "Theory + example" },
     { id: 2, title: "Geometry in AR", desc: "Visualize shapes with AR (demo)" },
     { id: 3, title: "Practice Problems", desc: "Interactive questions" },
   ];

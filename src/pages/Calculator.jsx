@@ -53,7 +53,7 @@ export default function Calculator() {
 
   return (
     <div className="max-w-3xl mx-auto p-6">
-      <h1 className="text-2xl font-semibold mb-3">Pythagoras Calculator</h1>
+      <h1 className="text-2xl font-semibold mb-3">Calculator</h1>
       <p className="text-sm opacity-80 mb-4">
         Pilih sisi yang ingin dicari, lalu isi nilai sisi lainnya.  
         Gunakan titik atau koma untuk angka desimal.
@@ -89,7 +89,7 @@ export default function Calculator() {
               checked={unknown === "c"}
               onChange={() => setUnknown("c")}
             />
-            Cari c (hipotenusa)
+            Cari c
           </label>
         </div>
 
